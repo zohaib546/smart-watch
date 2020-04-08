@@ -1,0 +1,176 @@
+
+
+html,body{
+	font-family: 'robotoregular', sans-serif;
+	overflow-x: hidden;
+}
+
+.header-bg{
+	background: linear-gradient(to left, rgba(33,33,33,0.27),rgb(33,33,33)) , url('watch.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.navbar {
+    background-color: transparent!important;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar-brand{
+	font-size: 2rem;
+	font-weight: 900i;
+	font-style: italic;
+	letter-spacing: 4px;
+	color: #fff!important;
+}
+
+.nav-link{
+	color: #fff!important;
+	font-size: 0.9rem;
+}
+
+.nav-item{
+	padding-right: 1rem;
+}
+
+.navbar-toggler{
+	background: #fff;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 0;
+	box-shadow: 0 2px 2px #4c4646;
+	background: #333!important;
+	z-index: 9999;
+}
+
+.desc-main{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.display-3, .lead{
+	font-family: 'robotothin', sans-serif;
+}
+
+.lead{
+	padding-top: 2rem;
+}
+
+.desc-main img{
+	max-height: 50px;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.components{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	color: #333;
+}
+
+.components h5,p{
+	margin-top: 2rem;
+	font-weight: 300;
+}
+
+.components h5{
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 1rem;
+}
+
+.watch{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.carousel-indicators{
+	margin-bottom: 0rem;
+}
+
+.carousel-indicators li{
+	background: #333;
+}
+
+.carousel-indicators .active{
+	background: #4dafeb;
+}
+
+.download-bg{
+	background: linear-gradient(to right, rgba(0,0,0,0),rgb(33,33,33)) , url('watch-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	color: #fff;
+}
+
+.links{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.links h5{
+	margin-top: 4rem;
+	font-weight: 600;
+}
+
+.links img{
+	height: 100%;
+	width: 75%;
+	float: right;
+}
+
+.contact-us{
+	background: #333;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	color: #fff;
+	text-align: center;
+}
+
+form{
+	margin-top: 4rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.footer{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: #333;
+	text-align: center;
+}
+
+.footer h5{
+	font-weight: 100!important;
+}
+
+/* Media Queries */
+
+@media(max-width: 767px) {
+	.navbar .container{
+
+	}
+}
